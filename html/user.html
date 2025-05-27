@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Профіль користувача</title>
+  <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+<div class="profile-card">
+  <div class="field">
+    <label>Нікнейм:</label>
+    <div class="input-group">
+      <input type="text" id="nickname" value="Користувач123">
+      <button onclick="updateNickname()">💾</button>
+    </div>
+  </div>
+
+  <div class="field">
+    <label>Email:</label>
+    <div class="static-value">user@example.com</div>
+  </div>
+
+  <div class="field">
+    <label>Підписка:</label>
+    <div class="subscription-status" id="subscription">
+      <span class="status-dot"></span>
+      <span class="status-text">Активна</span>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../js/userpage.js"></script>
+</html>
